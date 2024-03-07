@@ -9,10 +9,9 @@
   box-sizing: border-box;
 }
 
-body{
-    /* font-family: "Oswald", sans-serif; */
-    font-family: "Inter", sans-serif;
-
+body {
+  /* font-family: "Oswald", sans-serif; */
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
@@ -57,23 +56,31 @@ nav a {
   text-decoration: none;
 }
 
-nav a.active{
-    background-color: var(--active-button-color);
+nav a.active {
+  background-color: var(--active-button-color);
 }
 
-.aside_image--container, .text--container{
-    display: inline-block;
-    padding: 20px;
+.aside_image--container,
+.text--container {
+  display: inline-block;
+  padding: 20px;
 }
 
-.text--container{
-    vertical-align: top;
+.text--container {
+  vertical-align: top;
+width: 80%;
 }
 
-.aside_image--container img{
-    width: 100px;
+/* .text--container p {
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  overflow: hidden; 
+} */
+
+.aside_image--container img {
+  width: 100px;
 }
 
-.text--container article{
-    margin-bottom: 20px;
+.text--container article {
+  margin-bottom: 20px;
 }

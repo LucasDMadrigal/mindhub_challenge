@@ -3,50 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Montserrat:ital@0;1&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <!-- <link rel="stylesheet" href="style2.css"> -->
     <title>Document</title>
   </head>
   <body>
     <header>
-      <img src="../assets/images/Logo_Mighty_ducks-01.png" alt="main_logo"  width="150"/>
       <h1>Mighty Ducks Hockey League</h1>
       <nav>
-        <a href="../index.html">home</a> | <a href="#">About MDHL</a> |
-        <a href="./contact.html">contact</a>
+        <div class="nav-element--container">
+          <a href="../index.html">home</a>
+          <a class="active" href="#">About MDHL</a>
+          <a href="./pages/contact.html">contact</a>
+        </div>
       </nav>
+      <div class="header-banner"></div>
+      <h2>Upcoming Events</h2>
     </header>
 
     <main>
       <section>
-        <img src="../assets/images/hockey_2.jpg" alt="hockey_player"  width="450">
-        <article>
-          <h6>Mision</h6>
-          <p>
-            To support young athletes living Chicago's northside neighborhood,
-            who have an interest in learning and playing soccer, with
-            opportunities to learn and practice skills related to the game of
-            hockey, specifically those skills around team cooperation and good
-            sportsmanship
-          </p>
-        </article>
-        <article>
-          <h6>Vision</h6>
-          <p>
-            The Mighty Ducks Hockey League aspires to develop strong,
-            well-rounded and mindful athletes through the building of character,
-            self-discipline, and leadership.
-          </p>
-        </article>
-        <article>
-          <h6>General Information</h6>
-          <p>
-            The Mighty Ducks Soccer League was established in 1996 to provide
-            athletes residing Chicago's northside neighborhoods an environment
-            in which to learn and play hockey. To be a member of MDHL, you must
-            be between the ages of 4 - 12 and reside a Chicago northside
-            neighborhood. MDHL ran by o small full-time staff, and relies on the
-            generous volunteer time of parents and previous league members
-          </p>
-        </article>
+        <aside class="aside_image--container">
+          <img
+            src="../assets/images/Logo_Mighty_ducks-01.png"
+            alt="hockey_player"
+          />
+        </aside>
+        <div class="text--container">
+          <article>
+            <h3>Mision</h3>
+            <p>
+              To support young athletes living Chicago's northside neighborhood,
+              who have an interest in learning and playing soccer, with
+              opportunities to learn and practice skills related to the game of
+              hockey, specifically those skills around team cooperation and good
+              sportsmanship
+            </p>
+          </article>
+          <article>
+            <h3>Vision</h3>
+            <p>
+              The Mighty Ducks Hockey League aspires to develop strong,
+              well-rounded and mindful athletes through the building of
+              character, self-discipline, and leadership.
+            </p>
+          </article>
+          <article>
+            <h3>General Information</h3>
+            <p>
+              The Mighty Ducks Soccer League was established in 1996 to provide
+              athletes residing Chicago's northside neighborhoods an environment
+              in which to learn and play hockey. To be a member of MDHL, you
+              must be between the ages of 4 - 12 and reside a Chicago northside
+              neighborhood. MDHL ran by o small full-time staff, and relies on
+              the generous volunteer time of parents and previous league members
+            </p>
+          </article>
+        </div>
       </section>
     </main>
   </body>
