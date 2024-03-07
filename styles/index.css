@@ -54,6 +54,8 @@ nav a {
   background-color: var(--button-color);
   color: white;
   text-decoration: none;
+  margin: 0 5px;
+  box-shadow: 3px 3px rgba(2,2,2,0.4);
 }
 
 nav a.active {
