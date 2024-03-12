@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Estilizar title en un <li> de una <ol></title>
+  <style>
+    /* Estilo del mensaje emergente personalizado */
+    /* ol li {
+      position: relative;
+      cursor: pointer;
+    } */
+
+    ol li::before {
+      content: attr(title);
+      position: absolute;
+      background-color: #333;
+      color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+      /* visibility: hidden; */
+      /* opacity: 0;
+      transition: opacity 0.3s ease-in-out; */
+    }
+
+    /* ol li:hover::before {
+      visibility: visible;
+      opacity: 1;
+    } */
+  </style>
+</head>
+<body>
+
+<h2>Ejemplo de Lista Ordenada con Estilos en title</h2>
+
+<ol>
+  <li title="Título del Elemento 1">Elemento 1</li>
+  <li title="Título del Elemento 2">Elemento 2</li>
+  <li title="Título del Elemento 3">Elemento 3</li>
+</ol>
+
+</body>
+</html>
