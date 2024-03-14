@@ -1,6 +1,7 @@
 :root {
   --button-color: #4472c4;
   --active-button-color: #70ad47;
+  --background-one: #5fa199;
 }
 
 * {
@@ -43,6 +44,7 @@ h1 {
 header {
   /* margin: 12px 0 0 0; */
   padding-top: 4rem;
+  background-color: var(--background-one);
   background-color: #5fa199;
 }
 
@@ -138,6 +140,23 @@ table td, th{
   justify-content: space-between;
 }
 
+.close-info a{
+  color: black;
+}
+
 ul{
   list-style: none;
+}
+
+.phone_container{
+  display: flex;
+}
+
+footer{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-one);
 }
