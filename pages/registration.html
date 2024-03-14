@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@100..900&family=Montserrat:ital@0;1&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/styles2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mighty Ducks Hockey League</h1>
+      <nav>
+        <div class="nav-element--container">
+          <a class="active" href="#">home</a>
+          <a href="./pages/about.html">About MDHL</a>
+          <a href="./pages/contact.html">contact</a>
+          <a href="./pages/game_info.html">info</a>
+          <a href="./pages/rules.html">rules</a>
+          <a href="#">registro</a>
+          <a href="#">registro</a>
+        </div>
+      </nav>
+      <div class="header-banner"></div>
+      <h2>Upcoming Events</h2>
+    </header>
+
+    <main>
+      <aside class="aside_image--container">
+        <img
+          src="../assets/images/Logo_Mighty_ducks-01.png"
+          alt="hockey_player"
+        />
+      </aside>
+      <form action="/submit_form" method="post">
+        <div class="personal_info--container">
+          <label for="first_name">Nombre del Jugador:</label>
+          <input type="text" id="first_name" name="first_name" />
+
+          <label for="last_name">Apellido:</label>
+          <input type="text" id="last_name" name="last_name" />
+
+          <label for="street_address">Dirección:</label>
+          <input type="text" id="street_address" name="street_address" />
+        </div>
+        <div class="secound_info--cotainer">
+          <label for="city">Ciudad:</label>
+          <input type="text" id="city" name="city" />
+
+          <label for="zip_code">Código Postal:</label>
+          <input type="text" id="zip_code" name="zip_code" />
+
+          <label for="gender">Género:</label>
+          <input type="checkbox" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <input type="checkbox" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+        </div>
+
+        <div class="school_info--container">
+          <label for="grade">Grado:</label>
+          <input
+            type="checkbox"
+            id="pre_school"
+            name="grade"
+            value="pre_school"
+          />
+          <label for="pre_school">Pre-School</label>
+          <input type="checkbox" id="1st" name="grade" value="1st" />
+          <label for="1st">1st</label>
+          <input type="checkbox" id="2nd" name="grade" value="2nd" />
+          <label for="2nd">2nd</label>
+          <input type="checkbox" id="3rd" name="grade" value="3rd" />
+          <label for="3rd">3rd</label>
+          <input type="checkbox" id="4th" name="grade" value="4th" />
+          <label for="4th">4th</label>
+          <input type="checkbox" id="5th" name="grade" value="5th" />
+          <label for="5th">5th</label>
+
+          <label for="closest_school">Escuela Primaria más Cercana:</label>
+          <input
+            type="checkbox"
+            id="AJ_Katzenmaler"
+            name="closest_school"
+            value="AJ Katzenmaler"
+          />
+          <label for="AJ_Katzenmaler">AJ Katzenmaler</label>
+          <input
+            type="checkbox"
+            id="Marjorie_P_Hart"
+            name="closest_school"
+            value="Marjorie P Hart"
+          />
+          <label for="Marjorie_P_Hart">Marjorie P Hart</label>
+          <input
+            type="checkbox"
+            id="Greenbay"
+            name="closest_school"
+            value="Greenbay"
+          />
+          <label for="Greenbay">Greenbay</label>
+          <input
+            type="checkbox"
+            id="North_Elementary"
+            name="closest_school"
+            value="North Elementary"
+          />
+          <label for="North_Elementary">North Elementary</label>
+          <input
+            type="checkbox"
+            id="Howard_A_Yeager"
+            name="closest_school"
+            value="Howard A Yeager"
+          />
+          <label for="Howard_A_Yeager">Howard A Yeager</label>
+          <input
+            type="checkbox"
+            id="South_Elementary"
+            name="closest_school"
+            value="South Elementary"
+          />
+          <label for="South_Elementary">South Elementary</label>
+        </div>
+
+        <div class="position_info--container">
+          <label for="positions">Posición(es) que normalmente juegas:</label>
+          <input
+            type="checkbox"
+            id="forward"
+            name="positions"
+            value="Forward"
+          />
+          <label for="forward">Forward</label>
+          <input
+            type="checkbox"
+            id="midfield"
+            name="positions"
+            value="Midfield"
+          />
+          <label for="midfield">Midfield</label>
+          <input
+            type="checkbox"
+            id="defense"
+            name="positions"
+            value="Defense"
+          />
+          <label for="defense">Defense</label>
+          <input
+            type="checkbox"
+            id="goalkeeper"
+            name="positions"
+            value="Goalkeeper"
+          />
+          <label for="goalkeeper">Goalkeeper</label>
+        </div>
+
+        <div class="size_info--container">
+          <label for="uniform_size">Tamaño del Uniforme:</label>
+          <input
+            type="checkbox"
+            id="youth_small"
+            name="uniform_size"
+            value="Youth Small"
+          />
+          <label for="youth_small">Youth Small</label>
+          <input
+            type="checkbox"
+            id="medium"
+            name="uniform_size"
+            value="Medium"
+          />
+          <label for="medium">Medium</label>
+          <input
+            type="checkbox"
+            id="youth_medium"
+            name="uniform_size"
+            value="Youth Medium"
+          />
+          <label for="youth_medium">Youth Medium</label>
+          <input type="checkbox" id="large" name="uniform_size" value="Large" />
+          <label for="large">Large</label>
+          <input
+            type="checkbox"
+            id="youth_large"
+            name="uniform_size"
+            value="Youth Large"
+          />
+          <label for="youth_large">Youth Large</label>
+          <input
+            type="checkbox"
+            id="extra_large"
+            name="uniform_size"
+            value="Extra-Large"
+          />
+          <label for="extra_large">Extra-Large</label>
+          <input type="checkbox" id="small" name="uniform_size" value="Small" />
+          <label for="small">Small</label>
+        </div>
+        <div class="permission_sign--container">
+          <p><strong>Permission to Play</strong></p>
+          <p>
+            1, the parent or guardian of the minor registrant, agree that the
+            registrant and I will abide by all the rules of the Mighty Ducks
+            Hockey League (MDHL). In recognizing the possibility of physical
+            injury associated with hockey and in consideration for the "League"
+            accepting the registrant for its hockey programs and activities, I
+            hereby release, discharge, and/or otherwise indemnify MDHL, their
+            employees and associated personnel and volunteers, including the
+            facilities used for practices and games, against any claim by or on
+            behalf of the registrant as a result of the registrant's
+            participation in the program and/or being transported to or from
+            MDHL sponsored activities, which transportation.
+          </p>
+          <p>
+            By signing below, I hereby agree and authorize the above. In
+            addition, by signing below, I also acknowledge that I have read the
+            concussion policy and agree to its terms.
+          </p>
+          
+          <!-- Campos de entrada -->
+          <label for="parent_signature">Parent Guardian Signature:</label>
+          <input type="text" id="parent_signature" name="parent_signature" />
+          
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+        </div>
+          <input type="submit" value="Submit" />
+      </form>
+    </main>
+    <footer>
+      <p>
+        &copy; 2024 Mighty Ducks Hockey League. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
