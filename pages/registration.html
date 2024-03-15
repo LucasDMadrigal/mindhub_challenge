@@ -37,200 +37,265 @@
           alt="hockey_player"
         />
       </aside>
-      <form action="../show_data.html" method="post">
-        <div class="personal_info--container">
-          <label for="first_name">Nombre del Jugador:</label>
-          <input type="text" id="first_name" name="first_name" />
+      <section class="form--container">
+        <form action="../show_data.html" method="post">
+          <div class="personal_info--container">
+            <label for="first_name">Nombre del Jugador:</label>
+            <input type="text" id="first_name" name="first_name" />
 
-          <label for="last_name">Apellido:</label>
-          <input type="text" id="last_name" name="last_name" />
+            <label for="last_name">Apellido:</label>
+            <input type="text" id="last_name" name="last_name" />
 
-          <label for="street_address">Dirección:</label>
-          <input type="text" id="street_address" name="street_address" />
-        </div>
-        <div class="secound_info--cotainer">
-          <label for="city">Ciudad:</label>
-          <input type="text" id="city" name="city" />
+            <label for="street_address">Dirección:</label>
+            <input type="text" id="street_address" name="street_address" />
+            <label for="city">Ciudad:</label>
+            <input type="text" id="city" name="city" />
 
-          <label for="zip_code">Código Postal:</label>
-          <input type="text" id="zip_code" name="zip_code" />
+            <label for="zip_code">Código Postal:</label>
+            <input type="text" id="zip_code" name="zip_code" />
+          </div>
+          <div class="secound_info--cotainer">
+            <h5 class="title_form--section">Género:</h5>
+            <fieldset>
+              <label for="female">Female</label>
+              <input type="radio" id="female" name="gender" value="female" />
+            </fieldset>
+            <fieldset>
+              <label for="male">Male</label>
+              <input type="radio" id="male" name="gender" value="male" />
+            </fieldset>
+          </div>
 
-          <label for="gender">Género:</label>
-          <input type="checkbox" id="female" name="gender" value="female" />
-          <label for="female">Female</label>
-          <input type="checkbox" id="male" name="gender" value="male" />
-          <label for="male">Male</label>
-        </div>
+          <div class="school_info--container">
+            <h5 class="title_form--section">Grado:</h5>
+            <fieldset>
+              <label for="pre_school">Pre-School</label>
+              <input
+                type="radio"
+                id="pre_school"
+                name="grade"
+                value="pre_school"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="1st">1st</label>
+              <input type="radio" id="1st" name="grade" value="1st" />
+            </fieldset>
+            <fieldset>
+              <label for="2nd">2nd</label>
+              <input type="radio" id="2nd" name="grade" value="2nd" />
+            </fieldset>
+            <fieldset>
+              <label for="3rd">3rd</label>
+              <input type="radio" id="3rd" name="grade" value="3rd" />
+            </fieldset>
+            <fieldset>
+              <label for="4th">4th</label>
+              <input type="radio" id="4th" name="grade" value="4th" />
+            </fieldset>
+            <fieldset>
+              <label for="5th">5th</label>
+              <input type="radio" id="5th" name="grade" value="5th" />
+            </fieldset>
+          </div>
+          <div class="third_info--container">
+            <h5 class="title_form--section">Escuela Primaria más Cercana:</h5>
+            <fieldset>
+              <label for="AJ_Katzenmaler">AJ Katzenmaler</label>
+              <input
+                type="radio"
+                id="AJ_Katzenmaler"
+                name="closest_school"
+                value="AJ Katzenmaler"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="Marjorie_P_Hart">Marjorie P Hart</label>
+              <input
+                type="radio"
+                id="Marjorie_P_Hart"
+                name="closest_school"
+                value="Marjorie P Hart"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="Greenbay">Greenbay</label>
+              <input
+                type="radio"
+                id="Greenbay"
+                name="closest_school"
+                value="Greenbay"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="North_Elementary">North Elementary</label>
+              <input
+                type="radio"
+                id="North_Elementary"
+                name="closest_school"
+                value="North Elementary"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="Howard_A_Yeager">Howard A Yeager</label>
+              <input
+                type="radio"
+                id="Howard_A_Yeager"
+                name="closest_school"
+                value="Howard A Yeager"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="South_Elementary">South Elementary</label>
+              <input
+                type="radio"
+                id="South_Elementary"
+                name="closest_school"
+                value="South Elementary"
+              />
+            </fieldset>
+          </div>
 
-        <div class="school_info--container">
-          <label for="grade">Grado:</label>
-          <input
-            type="checkbox"
-            id="pre_school"
-            name="grade"
-            value="pre_school"
-          />
-          <label for="pre_school">Pre-School</label>
-          <input type="checkbox" id="1st" name="grade" value="1st" />
-          <label for="1st">1st</label>
-          <input type="checkbox" id="2nd" name="grade" value="2nd" />
-          <label for="2nd">2nd</label>
-          <input type="checkbox" id="3rd" name="grade" value="3rd" />
-          <label for="3rd">3rd</label>
-          <input type="checkbox" id="4th" name="grade" value="4th" />
-          <label for="4th">4th</label>
-          <input type="checkbox" id="5th" name="grade" value="5th" />
-          <label for="5th">5th</label>
+          <div class="position_info--container">
+            <h5 class="title_form--section">
+              Posición(es) que normalmente juegas:
+            </h5>
+            <fieldset>
+              <label for="forward">Forward</label>
+              <input
+                type="checkbox"
+                id="forward"
+                name="positions"
+                value="Forward"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="midfield">Midfield</label>
+              <input
+                type="checkbox"
+                id="midfield"
+                name="positions"
+                value="Midfield"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="defense">Defense</label>
+              <input
+                type="checkbox"
+                id="defense"
+                name="positions"
+                value="Defense"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="goalkeeper">Goalkeeper</label>
+              <input
+                type="checkbox"
+                id="goalkeeper"
+                name="positions"
+                value="Goalkeeper"
+              />
+            </fieldset>
+          </div>
 
-          <label for="closest_school">Escuela Primaria más Cercana:</label>
-          <input
-            type="checkbox"
-            id="AJ_Katzenmaler"
-            name="closest_school"
-            value="AJ Katzenmaler"
-          />
-          <label for="AJ_Katzenmaler">AJ Katzenmaler</label>
-          <input
-            type="checkbox"
-            id="Marjorie_P_Hart"
-            name="closest_school"
-            value="Marjorie P Hart"
-          />
-          <label for="Marjorie_P_Hart">Marjorie P Hart</label>
-          <input
-            type="checkbox"
-            id="Greenbay"
-            name="closest_school"
-            value="Greenbay"
-          />
-          <label for="Greenbay">Greenbay</label>
-          <input
-            type="checkbox"
-            id="North_Elementary"
-            name="closest_school"
-            value="North Elementary"
-          />
-          <label for="North_Elementary">North Elementary</label>
-          <input
-            type="checkbox"
-            id="Howard_A_Yeager"
-            name="closest_school"
-            value="Howard A Yeager"
-          />
-          <label for="Howard_A_Yeager">Howard A Yeager</label>
-          <input
-            type="checkbox"
-            id="South_Elementary"
-            name="closest_school"
-            value="South Elementary"
-          />
-          <label for="South_Elementary">South Elementary</label>
-        </div>
+          <div class="size_info--container">
+            <h5 class="title_form--section">Tamaño del Uniforme:</h5>
+            <fieldset>
+              <label for="youth_small">Youth Small</label>
+              <input
+                type="checkbox"
+                id="youth_small"
+                name="uniform_size"
+                value="Youth Small"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="medium">Medium</label>
+              <input
+                type="checkbox"
+                id="medium"
+                name="uniform_size"
+                value="Medium"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="youth_medium">Youth Medium</label>
+              <input
+                type="checkbox"
+                id="youth_medium"
+                name="uniform_size"
+                value="Youth Medium"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="large">Large</label>
+              <input
+                type="checkbox"
+                id="large"
+                name="uniform_size"
+                value="Large"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="youth_large">Youth Large</label>
+              <input
+                type="checkbox"
+                id="youth_large"
+                name="uniform_size"
+                value="Youth Large"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="extra_large">Extra-Large</label>
+              <input
+                type="checkbox"
+                id="extra_large"
+                name="uniform_size"
+                value="Extra-Large"
+              />
+            </fieldset>
+            <fieldset>
+              <label for="small">Small</label>
+              <input
+                type="checkbox"
+                id="small"
+                name="uniform_size"
+                value="Small"
+              />
+            </fieldset>
+          </div>
+          <div class="permission_sign--container">
+            <p><strong>Permission to Play</strong></p>
+            <p>
+              1, the parent or guardian of the minor registrant, agree that the
+              registrant and I will abide by all the rules of the Mighty Ducks
+              Hockey League (MDHL). In recognizing the possibility of physical
+              injury associated with hockey and in consideration for the
+              "League" accepting the registrant for its hockey programs and
+              activities, I hereby release, discharge, and/or otherwise
+              indemnify MDHL, their employees and associated personnel and
+              volunteers, including the facilities used for practices and games,
+              against any claim by or on behalf of the registrant as a result of
+              the registrant's participation in the program and/or being
+              transported to or from MDHL sponsored activities, which
+              transportation.
+            </p>
+            <p>
+              By signing below, I hereby agree and authorize the above. In
+              addition, by signing below, I also acknowledge that I have read
+              the concussion policy and agree to its terms.
+            </p>
 
-        <div class="position_info--container">
-          <label for="positions">Posición(es) que normalmente juegas:</label>
-          <input
-            type="checkbox"
-            id="forward"
-            name="positions"
-            value="Forward"
-          />
-          <label for="forward">Forward</label>
-          <input
-            type="checkbox"
-            id="midfield"
-            name="positions"
-            value="Midfield"
-          />
-          <label for="midfield">Midfield</label>
-          <input
-            type="checkbox"
-            id="defense"
-            name="positions"
-            value="Defense"
-          />
-          <label for="defense">Defense</label>
-          <input
-            type="checkbox"
-            id="goalkeeper"
-            name="positions"
-            value="Goalkeeper"
-          />
-          <label for="goalkeeper">Goalkeeper</label>
-        </div>
+            <!-- Campos de entrada -->
+            <label for="parent_signature">Parent Guardian Signature:</label>
+            <input type="text" id="parent_signature" name="parent_signature" />
 
-        <div class="size_info--container">
-          <label for="uniform_size">Tamaño del Uniforme:</label>
-          <input
-            type="checkbox"
-            id="youth_small"
-            name="uniform_size"
-            value="Youth Small"
-          />
-          <label for="youth_small">Youth Small</label>
-          <input
-            type="checkbox"
-            id="medium"
-            name="uniform_size"
-            value="Medium"
-          />
-          <label for="medium">Medium</label>
-          <input
-            type="checkbox"
-            id="youth_medium"
-            name="uniform_size"
-            value="Youth Medium"
-          />
-          <label for="youth_medium">Youth Medium</label>
-          <input type="checkbox" id="large" name="uniform_size" value="Large" />
-          <label for="large">Large</label>
-          <input
-            type="checkbox"
-            id="youth_large"
-            name="uniform_size"
-            value="Youth Large"
-          />
-          <label for="youth_large">Youth Large</label>
-          <input
-            type="checkbox"
-            id="extra_large"
-            name="uniform_size"
-            value="Extra-Large"
-          />
-          <label for="extra_large">Extra-Large</label>
-          <input type="checkbox" id="small" name="uniform_size" value="Small" />
-          <label for="small">Small</label>
-        </div>
-        <div class="permission_sign--container">
-          <p><strong>Permission to Play</strong></p>
-          <p>
-            1, the parent or guardian of the minor registrant, agree that the
-            registrant and I will abide by all the rules of the Mighty Ducks
-            Hockey League (MDHL). In recognizing the possibility of physical
-            injury associated with hockey and in consideration for the "League"
-            accepting the registrant for its hockey programs and activities, I
-            hereby release, discharge, and/or otherwise indemnify MDHL, their
-            employees and associated personnel and volunteers, including the
-            facilities used for practices and games, against any claim by or on
-            behalf of the registrant as a result of the registrant's
-            participation in the program and/or being transported to or from
-            MDHL sponsored activities, which transportation.
-          </p>
-          <p>
-            By signing below, I hereby agree and authorize the above. In
-            addition, by signing below, I also acknowledge that I have read the
-            concussion policy and agree to its terms.
-          </p>
-          
-          <!-- Campos de entrada -->
-          <label for="parent_signature">Parent Guardian Signature:</label>
-          <input type="text" id="parent_signature" name="parent_signature" />
-          
-          <label for="date">Date:</label>
-          <input type="date" id="date" name="date" />
-        </div>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" />
+          </div>
           <input type="submit" value="Submit" />
-      </form>
+        </form>
+      </section>
     </main>
     <footer>
       <p>
