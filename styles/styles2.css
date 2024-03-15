@@ -232,12 +232,22 @@ footer {
 
 .location_list li{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-top: 3rem;
   border-top: 1px solid gray;
 
 }
 
+.location_text--container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  width: 20%;
+}
+
+.location_text--container h3{
+  text-decoration: underline;
+}
 .location_list li iframe{
   width: 500px;
 }
