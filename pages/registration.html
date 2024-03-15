@@ -40,22 +40,22 @@
       <section class="form--container">
         <form action="../show_data.html" method="post">
           <div class="personal_info--container">
-            <label for="first_name">Nombre del Jugador:</label>
+            <label for="first_name">Nombre del Jugador</label>
             <input type="text" id="first_name" name="first_name" />
 
-            <label for="last_name">Apellido:</label>
+            <label for="last_name">Apellido</label>
             <input type="text" id="last_name" name="last_name" />
 
-            <label for="street_address">Dirección:</label>
+            <label for="street_address">Dirección</label>
             <input type="text" id="street_address" name="street_address" />
-            <label for="city">Ciudad:</label>
+            <label for="city">Ciudad</label>
             <input type="text" id="city" name="city" />
 
-            <label for="zip_code">Código Postal:</label>
+            <label for="zip_code">Código Postal</label>
             <input type="text" id="zip_code" name="zip_code" />
           </div>
           <div class="secound_info--cotainer">
-            <h5 class="title_form--section">Género:</h5>
+            <h5 class="title_form--section">Género</h5>
             <fieldset>
               <label for="female">Female</label>
               <input type="radio" id="female" name="gender" value="female" />
@@ -67,7 +67,7 @@
           </div>
 
           <div class="school_info--container">
-            <h5 class="title_form--section">Grado:</h5>
+            <h5 class="title_form--section">Grado</h5>
             <fieldset>
               <label for="pre_school">Pre-School</label>
               <input
@@ -99,7 +99,7 @@
             </fieldset>
           </div>
           <div class="third_info--container">
-            <h5 class="title_form--section">Escuela Primaria más Cercana:</h5>
+            <h5 class="title_form--section">Escuela Primaria más Cercana</h5>
             <fieldset>
               <label for="AJ_Katzenmaler">AJ Katzenmaler</label>
               <input
@@ -199,11 +199,11 @@
           </div>
 
           <div class="size_info--container">
-            <h5 class="title_form--section">Tamaño del Uniforme:</h5>
+            <h5 class="title_form--section">Tamaño del Uniforme</h5>
             <fieldset>
               <label for="youth_small">Youth Small</label>
               <input
-                type="checkbox"
+                type="radio"
                 id="youth_small"
                 name="uniform_size"
                 value="Youth Small"
@@ -212,7 +212,7 @@
             <fieldset>
               <label for="medium">Medium</label>
               <input
-                type="checkbox"
+                type="radio"
                 id="medium"
                 name="uniform_size"
                 value="Medium"
@@ -221,7 +221,7 @@
             <fieldset>
               <label for="youth_medium">Youth Medium</label>
               <input
-                type="checkbox"
+                type="radio"
                 id="youth_medium"
                 name="uniform_size"
                 value="Youth Medium"
@@ -230,7 +230,7 @@
             <fieldset>
               <label for="large">Large</label>
               <input
-                type="checkbox"
+                type="radio"
                 id="large"
                 name="uniform_size"
                 value="Large"
@@ -239,7 +239,7 @@
             <fieldset>
               <label for="youth_large">Youth Large</label>
               <input
-                type="checkbox"
+                type="radio"
                 id="youth_large"
                 name="uniform_size"
                 value="Youth Large"
@@ -248,7 +248,7 @@
             <fieldset>
               <label for="extra_large">Extra-Large</label>
               <input
-                type="checkbox"
+                type="radio"
                 id="extra_large"
                 name="uniform_size"
                 value="Extra-Large"
@@ -257,7 +257,7 @@
             <fieldset>
               <label for="small">Small</label>
               <input
-                type="checkbox"
+                type="radio"
                 id="small"
                 name="uniform_size"
                 value="Small"
@@ -285,15 +285,22 @@
               addition, by signing below, I also acknowledge that I have read
               the concussion policy and agree to its terms.
             </p>
-
-            <!-- Campos de entrada -->
-            <label for="parent_signature">Parent Guardian Signature:</label>
-            <input type="text" id="parent_signature" name="parent_signature" />
-
-            <label for="date">Date:</label>
-            <input type="date" id="date" name="date" />
+            <div class="signature--container">
+              <fieldset>
+                <label for="parent_signature">Parent Guardian Signature</label>
+                <input
+                  type="text"
+                  id="parent_signature"
+                  name="parent_signature"
+                />
+              </fieldset>
+              <fieldset>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" />
+              </fieldset>
+            </div>
           </div>
-          <input type="submit" value="Submit" />
+          <button type="submit">ENVIAR</button>
         </form>
       </section>
     </main>
