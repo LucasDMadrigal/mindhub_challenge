@@ -229,3 +229,15 @@ footer {
   align-items: center;
   background-color: var(--background-one);
 }
+
+.location_list li{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  border-top: 1px solid gray;
+
+}
+
+.location_list li iframe{
+  width: 500px;
+}
